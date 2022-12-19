@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- FavIcon -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Sonoz</title>
+  </head>
+  <!--------------------------------------------------------------->
+  <body>
+    <header>
+      <div class="menu">
+        <img src="images/logo.png" alt="" />
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Upload</a></li>
+            <li><a href="#">Playlist</a></li>
+          </ul>
+        </nav>
+        <div class="player">
+      <div class="player__header">
+        <div class="player__img player__img--absolute slider">
+          <button class="player__button player__button--absolute--nw playlist">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
+              alt="playlist-icon"
+            />
+          </button>
+
+          <button class="player__button player__button--absolute--center play">
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/play.svg"
+              alt="play-icon"
+            />
+            <img
+              src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
+              alt="pause-icon"
+            />
+          </button>
+
+          <div class="slider__content">
+            <img class="img slider__img" src="images/robbery.jpg" alt="cover" />
+          </div>
+        </div>
+
+        <div class="player__controls">
+          <button class="player__button back">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/back.svg"
+              alt="back-icon"
+            />
+          </button>
+
+          <p class="player__context slider__context">
+            <strong class="slider__name"></strong>
+            <span class="player__title slider__title"></span>
+          </p>
+
+          <button class="player__button next">
+            <img
+              class="img"
+              src="http://physical-authority.surge.sh/imgs/icon/next.svg"
+              alt="next-icon"
+            />
+          </button>
+
+          <div class="progres">
+            <div class="progres__filled"></div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="player__playlist list">
+        <li class="player__song">
+          <img class="player__img img" src="images/robbery.jpg" alt="cover" />
+
+          <p class="player__context">
+            <b class="player__song-name">robbery ft Trippie Redd</b>
+            <span class="flex">
+              <span class="player__title">Juice Wrld</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="juice.mp3"></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="images/bethere.jpg" alt="cover">
+          <p class="player__context">
+            <b class="player__song-name">Be There ft Tiesto</b>
+            <span class="flex">
+              <span class="player__title">Krewella</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="krew.mp3"></audio>
+        </li>
+      </ul>
+    </div>
+    <script src="app.js"></script>
+    </header>
+    <!--------------------------------------------------------------->
+    <div class="container">
+      <section class="one">
+        <div>
+          <h1>JUICE&#160;WRLD</h1>
+          <div class="wrld2">
+            <div>
+              <h2>WISHING&#160;WELL</h2>
+              <p>Legends Never Dies</p>
+              <p><span>2020</span></p>
+            </div>
+            <div>
+              <h2>LUCID&#160;DREAMS</h2>
+              <p>Goodbye & Good Riddance</p>
+              <p><span>2018</span></p>
+            </div>
+            <div>
+              <h2>NOT&#160;ENOUGH</h2>
+              <p>Fighting Demons</p>
+              <p><span>2022</span></p>
+            </div>
+          </div>
+          <div class="tracks"><a href="#">All Tracks</a></div>
+        </div>
+        <img src="images/juice.png" alt="" />
+      </section>
+      <section class="two">
+        <div>
+          <h1>KENDRICK&#160;LAMAR</h1>
+          <div class="wrld2">
+            <div>
+              <h2>HUMBLE.</h2>
+              <p>DAMN.</p>
+              <p><span>2017</span></p>
+            </div>
+            <div>
+              <h2>N95</h2>
+              <p>Mr.Morale & The Big Steppers</p>
+              <p><span>2022</span></p>
+            </div>
+            <div>
+              <h2>MONEY&#160;TREES</h2>
+              <p>good kid, m.A.A.d city</p>
+              <p><span>2012</span></p>
+            </div>
+          </div>
+          <div class="tracks"><a href="#">All Tracks</a></div>
+        </div>
+        <img src="images/kdot.png" alt="" />
+      </section>
+      <section class="three">
+        <div>
+          <h1>KREWELLA</h1>
+          <div class="wrld2">
+            <div>
+              <h2>BE THERE</h2>
+              <p>New World Pt.1</p>
+              <p><span>2017</span></p>
+            </div>
+            <div>
+              <h2>ALIVE</h2>
+              <p>Get&#160;Wet</p>
+              <p><span>2013</span></p>
+            </div>
+            <div>
+              <h2>NEVER BEEN HURT ft. BEAUZ</h2>
+              <p>The Body Never Lies</p>
+              <p><span>2022</span></p>
+            </div>
+          </div>
+          <div class="tracks"><a href="#">All Tracks</a></div>
+        </div>
+        <img src="images/krew.png" alt="" />
+      </section>
+      <section class="four">
+        <div>
+          <h1>MARSHMELLO</h1>
+          <div class="wrld2">
+            <div>
+              <h2>HAPPIER ft. BASTILLE</h2>
+              <p>Happier</p>
+              <p><span>2018</span></p>
+            </div>
+            <div>
+              <h2>TOGETHER</h2>
+              <p>Joytime II</p>
+              <p><span>2018</span></p>
+            </div>
+            <div>
+              <h2>KEEP IT MELLO</h2>
+              <p>Joytime</p>
+              <p><span>2016</span></p>
+            </div>
+          </div>
+          <div class="tracks"><a href="#">All Tracks</a></div>
+        </div>
+        <img src="images/marsh.png" alt="" />
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
